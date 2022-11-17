@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Codificación en español -->
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Título de la página que se muestra en la pestaña del navegador -->
+        <title>Circulos</title>
+        <style>
+            .divs {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                float: left;
+                margin: 10px;
+            }
+
+            #rojo {
+                background-color: red;
+            }
+
+            #verde {
+                background-color: green;
+            }
+
+            #azul {
+                background-color: blue;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .nofloat {
+                clear: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="rojo" class="divs">
+            <p>rojo</p>
+        </div>
+        <div id="verde" class="divs">
+            <p>verde</p>
+        </div>
+        <div id="azul" class="divs">
+            <p>azul</p>
+        </div>
+
+        <div class="nofloat">
+            <br>
+            <hr>
+            <button onclick="location.href='/curso-desarrollo-web/index-desarrollo-web.html'">volver al inicio</button>
+        </div>
+
+        <script>
+            document.getElementById("rojo").onclick = () => {
+                document.getElementById("rojo").style.display = "none";
+            };
+            document.getElementById("verde").onclick = () => {
+                document.getElementById("verde").style.display = "none";
+            };
+            document.getElementById("azul").onclick = () => {
+                document.getElementById("azul").style.display = "none";
+            };
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <title>javascript</title>
+  </head>
+
+  <body>
+    <p id="texto">Ejemplo de javascript</p>
+    <button id="miBoton">Cambia texto</button>
+    <p id="textoDos">javascript es ....</p>
+    <button id="botonDos">añade texto</button>
+    <p id="parrafoVacio"></p>
+    <button id="botonTres">Crea el párrafo</button>
+    <p id="parrafoConEstilo">Párrafo con estilo</p>
+    <button id="botonModificarEstilo">Modifica el estilo</button>
+    <br>
+    <br>
+    <hr>
+    <button onclick="location.href='/curso-desarrollo-web/index-desarrollo-web.html'">volver al inicio</button>
+    <script>
+      const miBoton = document.getElementById("miBoton");
+      miBoton.addEventListener("click", (e) => {
+        document.getElementById("texto").innerHTML = "Texto cambiado";
+      })
+      document.getElementById("botonDos").onclick = (e) => {
+        document.getElementById("textoDos").innerHTML += " increible";
+      }
+      document.getElementById("botonTres").onclick = () => {
+        document.getElementById("parrafoVacio").innerHTML = "<h1>Párrafo creado</h1>"
+      }
+      document.getElementById("botonModificarEstilo").onclick = () => {
+        document.getElementById("parrafoConEstilo").style.color = "red";
+      }
+    </script>
+  </body>
+
+</html>

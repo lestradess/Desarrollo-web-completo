@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Resultados</title>
+    </head>
+
+    <body>
+        <h1>Curso OpenBootcam</h1>
+        <hr>
+        <h2>Resultados del formulario </h2>
+        <h3>Aquí se mostrarán los resultados</h3>
+        <div id="resultados"></div>
+        <br>
+        <br>
+        <hr>
+        <a href="/curso-openbootcam/html-y-css/02-formulario.html">Volver al formulario</a>
+    </body>
+    <script>
+        const resDiv = document.getElementById("resultados")
+        new URLSearchParams(window.location.search).forEach((val, name) => {
+            resDiv.append(`${ name }: ${ val }`);
+            resDiv.append(document.createElement('br'))
+        })
+    </script>
+
+</html>

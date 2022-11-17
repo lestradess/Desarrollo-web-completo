@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 02 - Formularios en HTML</title>
+    </head>
+
+    <body>
+        <h1>Curso OpenBootcam</h1>
+        <hr>
+        <h2>04-Ejercicio 02, enunciado del ejercicio: </h2>
+        <h3>Crea un nuevo documento HTML que cumpla los siguientes parámetros:</h3>
+        <ul>
+            <li>
+                <p>El título debe ser "Ejercicio 02 - Formularios en HTML.</p>
+            </li>
+            <li>
+                <p>El body debe contener un formulario que cumpla las siguientes características:</p>
+                <ul>
+                    <li>
+                        <p>El atributo action será " / "</p>
+                    </li>
+                    <li>
+                        <p>Debe contener los siguientes campos:</p>
+                        <ul>
+                            <li>
+                                <p>Un campo de texto llamado "nombre"</p>
+                            </li>
+                            <li>
+                                <p>Un campo numérico llamado "edad"</p>
+                            </li>
+                            <li>
+                                <p>Un campo de área llamado "frase-favorita"</p>
+                            </li>
+                            <li>
+                                <p>Un botón de envío.</p>
+                            </li>
+                            <li>
+                                <p>Un botón de reset</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <br>
+        <form action="/">
+            <div>
+                <label for="nombre" >Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad">
+            </div>
+            <br>
+            <div>
+                <label for="frase-favorita" >Frase favorita</label>
+                <textarea name="frase-favorita" id="frase-favorita" rows="1" required></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Enviar formulario</button>
+                <button typer="reset">Resetear formulario</button>
+            </div>
+
+        </form>
+        <!-- No tener en cuenta esto ya que yo voy enlazando todas las páginas dentro de un index -->
+        <br>
+        <br>
+        <hr>
+        <a href="/curso-openbootcam/index-openbootcam.html">Volver al inicio del curso-openbootcam</a>
+    </body>
+
+</html>
