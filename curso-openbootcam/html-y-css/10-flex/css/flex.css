@@ -1,0 +1,73 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: green;
+    width: 500px;
+    align-items: center;
+
+
+}
+
+.granbox {
+    padding-right: 5px;
+}
+
+.contenido-1 {
+    background-color: red;
+}
+
+.contenido-2 {
+    background-color: yellow;
+}
+
+.contenido-3 {
+    background-color: aqua;
+}
+
+.cuadrado {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadradotexto {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.stretch {
+    flex-grow: 1;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.start {
+    justify-content: start;
+}
