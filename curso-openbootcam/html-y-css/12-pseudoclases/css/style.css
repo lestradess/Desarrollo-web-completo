@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+}
+
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+}
+
+/*El hover se activa cuando el ratón pasa por encima*/
+.hover:hover {
+    background-color: burlywood;
+}
+
+.listado {
+    background-color: aquamarine;
+}
+
+.listado p:first-child {
+    color: white;
+}
+
+.enlaces {
+    background-color:darkorange;
+}
+
+/*Enlace no visitado*/
+a:link {
+    color:darkslateblue
+}
+
+/*Enlace visitado*/
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: aqua;
+}
