@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+}
+.button::before{
+    content: "Pasa por encima";
+}
+
+.button:hover {
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    content: "¡Hecho!";
+}
+.button:hover::before{
+    content: "¡Hecho!";
+}
