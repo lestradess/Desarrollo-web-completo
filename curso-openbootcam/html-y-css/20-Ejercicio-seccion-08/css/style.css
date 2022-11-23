@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.btn-modern {
+    position: relative;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(81, 2, 159);
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: 3px 3px violet;
+    background-color: blueviolet;
+    color: violet;
+}
