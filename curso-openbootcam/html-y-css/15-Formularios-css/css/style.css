@@ -5,9 +5,21 @@
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 10px;
+    padding: 0;
+    color: #ddd;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #333;
+}
 section{
     display: flex;
-    margin:10px
+    margin:10px;
+    background-color:white;
 
 }
 .color2{
@@ -20,6 +32,7 @@ section{
     margin: 10px;
     border: 1px solid rgb(209, 155, 192);
     border-radius: 5px;
+    color:#333;
 }
 
 .input {
