@@ -1,0 +1,37 @@
+@use "mixins";
+// Variables en scss: $nombre_variable: parámetros;
+$bg-color: #333;
+$paddin-min: 0.5rem;
+
+body {
+	padding: 0;
+	margin: 0;
+	color: #ddd;
+	background-color: $bg-color;
+}
+.container-header {
+	padding: $paddin-min;
+}
+
+.container {
+	width: 100%;
+	min-height: 100vh;
+	padding: $paddin-min;
+	h4 {
+		@include mixins.color-letra(violet);
+	
+	}
+	p {
+		@include mixins.color-letra(red);
+	}
+	ul {
+		
+		background-color: olivedrab;
+		@include mixins.color-letra();
+		li {
+			
+			@include mixins.color-letra();
+			background-color: green;
+		}
+	}
+}

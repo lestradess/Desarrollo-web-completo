@@ -1,0 +1,57 @@
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: red;
+  background-color: yellowgreen;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: green;
+  cursor: pointer;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  background-color: green;
+  border-radius: 0.25rem;
+  color: black;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #ddd;
+  background-color: #333;
+}
+
+.container-header {
+  padding: 0.5rem;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+.container h4 {
+  color: violet;
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+.container p {
+  color: red;
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+.container ul {
+  background-color: olivedrab;
+  color: black;
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+.container ul li {
+  color: black;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

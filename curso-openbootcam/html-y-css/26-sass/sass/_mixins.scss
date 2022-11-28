@@ -1,0 +1,7 @@
+
+//Mixin @mixin nombre_mixin(variables: valor_por_defecto){ parámetros:}
+@mixin color-letra($text-col:black) {
+	color: $text-col;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
